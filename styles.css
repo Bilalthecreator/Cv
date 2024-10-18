@@ -1,0 +1,89 @@
+body {
+    font-family: 'Afacad flux';
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    
+}
+
+.jobtitle{
+    font-weight: bold;
+}
+
+ul li {
+    list-style-type: disc;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.skills {
+    position: relative;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills li {
+    margin-right: 20px;
+    position: relative;
+    width: 45%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+.skills li:hover .skill-bar {
+    display: block;
+}
+
+.skill-bar {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 5px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.bar {
+    height: 20px;
+    background-color: #1b2930;
+    border-radius: 5px;
+}
+
+.bar-90 {
+    width: 90%;
+}
+
+.bar-80 {
+    width: 80%;
+}
+
+.bar-75 {
+    width: 75%;
+}
+
+.bar-70 {
+    width: 70%;
+}
+
+.bar-60 {
+    width: 60%;
+}
+
+.bar-50 {
+    width: 50%;
+}
